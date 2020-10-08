@@ -1,8 +1,22 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+* {
+    font-family: 'Prompt', sans-serif;
 }
 
-a {
-  color: #00B7FF;
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
 }
+
+::-webkit-scrollbar-track {
+    background: #191919;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2f2f2f;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* ------- */
