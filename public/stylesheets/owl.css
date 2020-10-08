@@ -1,0 +1,25 @@
+button.owl-prev {
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+button.owl-next {
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.owl-nav button {
+    background-color: transparent !important;
+    margin-top: 0px !important;
+}
+
+.owl-product .card {
+    margin: .5rem;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+    color: #353535 !important;
+    font-size: 1.5rem !important;
+}

@@ -1,13 +1,50 @@
 /* mobile only */
-@media screen and (max-width: 39.9375em) {}
+@media screen and (max-width: 39.9375em) {
+    button.owl-prev {
+        margin-left: .5rem !important;
+    }
+    
+    button.owl-next {
+        margin-right: .5rem !important;
+    }
+
+    .owl-product .card {
+        margin: 2rem !important;
+    }
+}
 
 @media screen and (min-width: 40em) {}
 
 /* ipad only */
-@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    button.owl-prev {
+        margin-left: -1rem !important;
+    }
+    
+    button.owl-next {
+        margin-right: -1rem !important;
+    }
+}
 
-@media screen and (min-width: 64em) {}
+@media screen and (min-width: 64em) {
+    button.owl-prev {
+        margin-left: -1.3rem !important;
+    }
+    
+    button.owl-next {
+        margin-right: -1.3rem !important;
+    }
 
-@media screen and (min-width: 1025px) {}
+}
+
+@media screen and (min-width: 1025px) {
+    button.owl-prev {
+        margin-left: -2rem !important;
+    }
+    
+    button.owl-next {
+        margin-right: -2rem !important;
+    }
+}
 
 @media screen and (min-width: 1280px) {}
